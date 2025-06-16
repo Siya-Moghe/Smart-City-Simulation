@@ -1,5 +1,6 @@
 # Smart-City-Simulation
 [![Python & Raspberry Pi](https://skillicons.dev/icons?i=python,rpi)](https://skillicons.dev)
+
 This repository hosts two interconnected projects: a Python/Pygame simulation that visualizes smart city traffic and lighting logic, and a Raspberry Pi hardware setup demonstrating physical streetlight control via LDR and IR sensors.
 
 This repository hosts two distinct, yet conceptually related, projects that explore smart city concepts:
@@ -26,14 +27,15 @@ ________________________________________________________________________________
 
   ______________________________________________________________________________________________________________________________________________________________________________________
 # ⚙️ How It Works (Component Breakdown)
-   ***Smart City Simulation*** 
-     **broker.py (The Simulation Brain):**
+   **Smart City Simulation**
+   
+     broker.py (The Simulation Brain):
       This script launches a TCP socket server. It's the central repository for all simulation data: car positions, sensor states, simulated LDR values, and traffic light states. It processes commands from the          client.py (like moving cars or toggling day/night) and then calculates the appropriate responses for the simulated streetlights and traffic lights based on its internal logic. This data is then sent back to       the client for visualization.
     
-    **client.py (The Interactive Visualizer):**
+    client.py (The Interactive Visualizer):
       This Pygame application connects to broker.py. It fetches the latest simulation state from the broker and renders it graphically. Your interactions (dragging cars, clicking buttons) send commands to the           broker, creating a dynamic feedback loop.
     
-    **Raspberry Pi Streetlight Controller** 
+    Raspberry Pi Streetlight Controller
       mpca.py (The Hardware Interface): This script is designed specifically for your Raspberry Pi. It directly accesses GPIO pins to read data from your connected LDR and IR sensors. Based on the real-time             inputs from these physical components, it then controls the connected LEDs. The logic here mirrors the streetlight behavior of the simulation: lights activate when it's dark and an object is detected by an        IR sensor.
     
 __________________________________________________________________________________________________________________________________________________________________________________________________________________
