@@ -11,8 +11,8 @@ ________________________________________________________________________________
 
 # 🌟 Project Overview
   **1. Smart City Simulation (Software)**
-          This is an **interactive Pygame application** that simulates a smart city road with dynamic elements:
-          **Real-time Visuals:** See cars moving, sensors activating, and both streetlights and traffic lights changing dynamically.
+          This is an **interactive Pygame application** that simulates a smart city road with dynamic elements:\n
+          **Real-time Visuals:** See cars moving, sensors activating, and both streetlights and traffic lights changing dynamically.\n
           **Intelligent Traffic Management:** Traffic lights respond to car density, adjusting their state (Red, Yellow, Green) based on how many vehicles are detected at an intersection.
           **Dynamic Streetlights:** Simulated streetlights illuminate based on ambient light conditions (toggleable from the GUI) and the presence of cars near their sensors.
           **Interactive Controls:** Easily add new cars to the road or toggle "day/night" mode directly within the simulation, observing instant changes.
