@@ -44,7 +44,9 @@ A standalone hardware project that brings smart streetlight control into the phy
     
 __________________________________________________________________________________________________________________________________________________________________________________________________________________
 # Circuit Diagram:
-
+_____________________________________________________________________________________________________________________________________________________________________________
+![Smart City Simulation Screenshot](assets/circuit-diagram.png)
+![Smart City Simulation Screenshot](assets/physical-project.png)
 
 
 
