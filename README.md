@@ -12,11 +12,11 @@ ________________________________________________________________________________
 # 🌟 Project Overview
   **1. Smart City Simulation (Software)**
           This is an **interactive Pygame application** that simulates a smart city road with dynamic elements:
-          **Real-time Visuals:** See cars moving, sensors activating, and both streetlights and traffic lights changing dynamically.
-          **Intelligent Traffic Management:** Traffic lights respond to car density, adjusting their state (Red, Yellow, Green) based on how many vehicles are detected at an intersection.
-          **Dynamic Streetlights:** Simulated streetlights illuminate based on ambient light conditions (toggleable from the GUI) and the presence of cars near their sensors.
-          **Interactive Controls:** Easily add new cars to the road or toggle "day/night" mode directly within the simulation, observing instant changes.
-          **Central Broker System:** A dedicated Python server (broker.py) acts as the communication hub, managing the simulation's state and facilitating interaction between the client and its internal logic.
+             -**Real-time Visuals:** See cars moving, sensors activating, and both streetlights and traffic lights changing dynamically.
+             -**Intelligent Traffic Management:** Traffic lights respond to car density, adjusting their state (Red, Yellow, Green) based on how many vehicles are detected at an intersection.
+             -**Dynamic Streetlights:** Simulated streetlights illuminate based on ambient light conditions (toggleable from the GUI) and the presence of cars near their sensors.
+             -**Interactive Controls:** Easily add new cars to the road or toggle "day/night" mode directly within the simulation, observing instant changes.
+             -**Central Broker System:** A dedicated Python server (broker.py) acts as the communication hub, managing the simulation's state and facilitating interaction between the client and its internal logic.
   **2. Raspberry Pi Streetlight Controller (Hardware)**
         This is a **physical project designed to run on a Raspberry Pi**, demonstrating real-world hardware control:
         **Physical Streetlights:** Control actual LEDs connected to your Raspberry Pi.
