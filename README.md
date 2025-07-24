@@ -1,5 +1,6 @@
 # Smart-City-Simulation
 [![Python & Raspberry Pi](https://skillicons.dev/icons?i=python,rpi)](https://skillicons.dev)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white)
 
 This repository hosts two interconnected projects: a Python/Pygame simulation that visualizes smart city traffic and lighting logic, and a Raspberry Pi hardware setup demonstrating physical streetlight control via LDR and IR sensors.
 
