@@ -10,7 +10,7 @@ This repository hosts two distinct, yet conceptually related, projects that expl
 While the simulation and the hardware controller operate independently, they both showcase principles of intelligent infrastructure, making them a great combined resource for learning and demonstrating IoT and smart systems.
 _____________________________________________________________________________________________________________________________________________________________________________
 
-# 🌟 Project Overview
+# Project Overview
 
 ### 1. Smart City Simulation (Software)  
 A dynamic simulation built with **Pygame**, designed to emulate smart city behavior:
@@ -30,7 +30,7 @@ A standalone hardware project that brings smart streetlight control into the phy
 - **Intelligent Logic**: Streetlights only activate in the dark *and* when a nearby object is detected.  
 - **Standalone Operation**: The script (`mpca.py`) runs independently on the Pi without external input.
   ______________________________________________________________________________________________________________________________________________________________________________________
-# ⚙️ How It Works (Component Breakdown)
+# How It Works (Component Breakdown)
    **Smart City Simulation**
    
      broker.py (The Simulation Brain):
@@ -43,3 +43,8 @@ A standalone hardware project that brings smart streetlight control into the phy
       mpca.py (The Hardware Interface): This script is designed specifically for your Raspberry Pi. It directly accesses GPIO pins to read data from your connected LDR and IR sensors. Based on the real-time             inputs from these physical components, it then controls the connected LEDs. The logic here mirrors the streetlight behavior of the simulation: lights activate when it's dark and an object is detected by an        IR sensor.
     
 __________________________________________________________________________________________________________________________________________________________________________________________________________________
+# Circuit Diagram:
+
+
+
+
